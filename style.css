@@ -104,4 +104,68 @@ main {
     border-left: 1px solid #eee;
 }
 
+/* offer section */
+
+.offer-title {
+    display: flex;
+    margin-left:40px;
+    align-items: center;
+    gap: 15px;
+    margin-bottom:5px;
+}
+
+.offer-title h3 {
+    color:#666666;
+    font-weight: 300;
+    font-size: 25px;
+}
+
+
+.offer-title a {
+    font-size: 15px;
+}
+
+.offer-title a:hover {
+    text-decoration: none;
+}
+
+.offer-container {
+    padding: 10px 40px;
+    justify-content: space-between;
+}
+
+.offer-product {
+    height: 350px;
+    background-color: white;
+}
+
+.offer-info {
+    padding-top: 19px;
+    padding-left: 16px;
+    border-top: 1px solid #eee;
+    display: flex;
+    flex-direction: column;
+}
+
+.offer-price {
+    font-size: 23px;
+    display: flex;
+    align-items: center;
+}
+
+.offer-off {
+    font-size: 14px;
+    color: #00A650;
+}
+
+.offer-sending {
+    font-size: 13px;
+    font-weight: 600;
+    color: #00A650;
+}
+
+.offer-full {
+    width: 39px;
+    height: 15px;
+}
 
