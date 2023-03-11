@@ -6,6 +6,8 @@
     font-family: 'Roboto', 'sans-serif';
 }
 
+/*Heider*/
+
 header {
     background-color: #fff15a;
     width: 100%;
@@ -56,6 +58,50 @@ nav {
     width: max-content;
 }
 
+/*main*/
 
+main {
+    background-color: #ebebeb;
+}
+
+/*paying  section*/
+
+.main-container {
+    padding:40px;
+}
+
+.paying-list {
+    display: flex;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.1);
+}
+
+.paying-list .paying-box {
+    height: 90px;
+    flex: 1 0 auto;
+}
+
+.paying-info span {
+    font-size: 17px;
+    font-weight: 400;
+    color: black;
+}
+
+.paying-info a {
+    font-size: 14;
+}
+
+.paying-info a:hover {
+    text-decoration: none;
+}
+
+.paying-icon {
+    margin: 0 16px;
+}
+
+.paying-box-info {
+    border-left: 1px solid #eee;
+}
 
 
