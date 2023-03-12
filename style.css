@@ -169,3 +169,94 @@ main {
     height: 15px;
 }
 
+/*Suscribtion section*/
+
+.subs-container {
+    padding:40px;
+}
+
+.subs-card {
+    border-radius: 6px;
+    overflow: hidden;
+    background-color: white;
+}
+
+.subs-title {
+    padding: 16px 24px;
+    background: linear-gradient(90deg,#a90f90 55%,#0c1a51);
+    color: white;
+}
+
+.subs-title > span {
+    font-size: 23px;
+    font-weight: 600;
+}
+
+.subs-offer {
+    font-weight: 600;
+    border-left: 2px solid white;
+    padding-left: 5px;
+    line-height: 1.2;
+}
+
+.subs-offer :first-child {
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: line-through;
+}
+
+.subs-offer :nth-child(2) {
+    font-size: 24px;
+}
+
+.subs-offer .subs-month {
+    font-size:14;
+    text-decoration: none;
+}
+
+.subs-info {
+    padding: 0 70px 0 25px;
+    margin-bottom: 24px;
+}
+
+.subs-circle-img {
+    border-radius: 50%;
+    border:1px solid #eee;
+    width: 82px;
+    height: 82px;
+}
+
+.subs-info img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.info-box {
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    gap:15px;
+}
+
+.subs-sentence{
+    padding: 24px 20px;
+}
+
+.box-message {
+    line-height: 1;
+}
+
+.subs-button {
+    border-top: 1px solid #eee;
+    padding: 16px 30px;
+}
+
+.subs-button button{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
+
+
