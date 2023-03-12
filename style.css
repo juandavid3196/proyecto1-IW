@@ -126,7 +126,7 @@ main {
 .section-title h3 {
     color:#666666;
     font-weight: 300;
-    font-size: 25px;
+    font-size: 26px;
 }
 
 
@@ -401,4 +401,52 @@ main {
     height: 72px;
     width: 72px;
     border-radius: 8px;
+}
+
+/* Supermarket section */
+
+.main-product {
+    display: flex;
+    flex-direction: column;
+    border-radius: 4px;
+    box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    background-color: white;
+    height: 384px;
+}
+
+.main-product-info {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    padding-left: 25px;
+    color: #4B4B4B;
+}
+
+.products-list {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 16px;
+    list-style: none;
+}
+
+.products-list li {
+    border-radius: 4px;
+    box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.1);
+}
+
+.product-info-subtitle {
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: 4px;
+}
+
+.product-info-title {
+    font-weight: 700;
+    font-size: 28px;
+}
+
+.title-option {
+    font-weight: 600;
+    font-size: 26px;
 }
