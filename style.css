@@ -66,8 +66,10 @@ main {
 
 /*paying  section*/
 
-.main-container {
-    padding:40px;
+.section-container {
+    padding: 10 40px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .paying-list {
@@ -75,6 +77,7 @@ main {
     border-radius: 5px;
     background-color: white;
     box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.1);
+    margin: 30px 0;
 }
 
 .paying-list .paying-box {
@@ -106,7 +109,7 @@ main {
 
 /* offer section */
 
-.offer-title {
+.section-title {
     display: flex;
     margin-left:40px;
     align-items: center;
@@ -114,14 +117,14 @@ main {
     margin-bottom:5px;
 }
 
-.offer-title h3 {
+.section-title h3 {
     color:#666666;
     font-weight: 300;
     font-size: 25px;
 }
 
 
-.offer-title a {
+.section-title a {
     font-size: 15px;
 }
 
@@ -129,14 +132,11 @@ main {
     text-decoration: none;
 }
 
-.offer-container {
-    padding: 10px 40px;
-    justify-content: space-between;
-}
-
 .offer-product {
     height: 350px;
     background-color: white;
+    border-radius: 6px;
+    box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.1);
 }
 
 .offer-info {
@@ -179,6 +179,8 @@ main {
     border-radius: 6px;
     overflow: hidden;
     background-color: white;
+    margin-bottom: 45px;
+    box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.1);
 }
 
 .subs-title {
@@ -255,6 +257,59 @@ main {
 .subs-button button{
     font-size: 16px;
     font-weight: 600;
+}
+
+/* market section */
+
+.market-service {
+    width: 384px;
+    height: 250px;
+    display: flex;
+   flex-direction: column;
+   justify-content: flex-end;
+   border-radius: 6px;
+}
+
+.service-container {
+    gap: 16px;
+    align-items: center;
+    padding: 16px;
+}
+
+.market-service.img-1 {
+    background-image: url('./img/market-img/Widget_Multicontent_Latam_768-x-566px.jpg.svg');
+}
+.market-service.img-2 {
+    background-image: url('./img/market-img/HBOMax_widgetmulti_mobdsk_mco_@2x.webp.svg');
+}
+.market-service.img-3 {
+    background-image: url('./img/market-img/paramount_widgetmulti_mobdsk_mco_@2x.jpg.svg');
+}
+
+.service-data {
+    line-height: 1;
+}
+
+.service-data h3 {
+    font-size: 22px;
+    font-weight: 600;
+    color: white;
+    line-height: 1;
+}
+
+.service-data .service-product {
+    font-weight: 400;
+    font-size: 17px;
+    color: white;
+    line-height: 0.8;
+}
+
+.service-data .free-offer {
+    font-weight: bold;
+    font-size: 11px;
+    margin-bottom: 4px;
+    color: white;
+    line-height: 2.5;
 }
 
 
