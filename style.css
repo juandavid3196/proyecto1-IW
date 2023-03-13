@@ -6,10 +6,39 @@
     font-family: 'Roboto', 'sans-serif';
 }
 
-/* general */
+/* general classes */
 
 .margin-40{
     padding: 40px 0;
+}
+
+.section-container {
+    padding: 10 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-title {
+    display: flex;
+    margin-left:40px;
+    align-items: center;
+    gap: 15px;
+    margin-bottom:5px;
+}
+
+.section-title h3 {
+    color:#666666;
+    font-weight: 300;
+    font-size: 26px;
+}
+
+
+.section-title a {
+    font-size: 15px;
+}
+
+.section-title a:hover {
+    text-decoration: none;
 }
 
 /*Heider*/
@@ -64,6 +93,11 @@ nav {
     width: max-content;
 }
 
+
+.nav-container .services-list {
+    margin-right: 85px;
+}
+
 /*main*/
 
 main {
@@ -71,12 +105,6 @@ main {
 }
 
 /*paying  section*/
-
-.section-container {
-    padding: 10 40px;
-    display: flex;
-    justify-content: space-between;
-}
 
 .paying-list {
     display: flex;
@@ -109,34 +137,16 @@ main {
     margin: 0 16px;
 }
 
+.paying-box {
+    display: flex;
+    align-items: center;
+}
+
 .paying-box-info {
     border-left: 1px solid #eee;
 }
 
 /* offer section */
-
-.section-title {
-    display: flex;
-    margin-left:40px;
-    align-items: center;
-    gap: 15px;
-    margin-bottom:5px;
-}
-
-.section-title h3 {
-    color:#666666;
-    font-weight: 300;
-    font-size: 26px;
-}
-
-
-.section-title a {
-    font-size: 15px;
-}
-
-.section-title a:hover {
-    text-decoration: none;
-}
 
 .offer-title a:hover {
     text-decoration: none;
